@@ -1,14 +1,28 @@
 {
-  "name": "lib-amqp-js",
+  "name": "@jovanibrasil/lib-amqp-js",
   "version": "1.0.0",
   "description": "Library for AMQP communication",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public"
   },
   "author": "Jovani Brasil",
   "license": "ISC",
   "dependencies": {
     "amqplib": "^0.8.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovanibrasil/lib-amqp-js.git"
+  },
+  "keywords": [
+    "amqp",
+    "rabbitmq"
+  ],
+  "bugs": {
+    "url": "https://github.com/jovanibrasil/lib-amqp-js/issues"
+  },
+  "homepage": "https://github.com/jovanibrasil/lib-amqp-js#readme"
 }
